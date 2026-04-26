@@ -1,0 +1,9 @@
+.bridge_token
+.gateway_endpoint.json
+.godot_mcp_bridge_token
+.godot_mcp_gateway_endpoint.json
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.pytest_cache/

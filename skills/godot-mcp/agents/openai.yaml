@@ -1,0 +1,13 @@
+interface:
+  display_name: "Godot MCP"
+  short_description: "Operate Godot projects through MCP"
+  default_prompt: "Use $godot-bridge to inspect the Godot project, operate the editor through the Gateway, save changes, and verify with tests or diagnostics."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "godot-bridge"
+      description: "Local Godot MCP FastMCP Gateway"
+      transport: "streamable_http"
+      url: "http://127.0.0.1:3001/mcp"
+policy:
+  allow_implicit_invocation: true
